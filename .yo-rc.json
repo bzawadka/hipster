@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "hipster",
+    "packageName": "pl.bzawadka.hipster",
+    "packageFolder": "pl/bzawadka/hipster",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "useSass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "5aaf330ede9d64409fd2e670756a404ffa6c9ff5",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
